@@ -718,6 +718,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
+    Standalone: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;MINIGAME_-_MEMORY_ASSET_STORE_RELEASE
     WebGL: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;MINIGAME_-_MEMORY_ASSET_STORE_RELEASE
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -830,7 +831,7 @@ PlayerSettings:
   cloudProjectId: 14906d68-b041-439e-98bc-6173b9cd2ed6
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Memory Game
   organizationId: kriss3172
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
