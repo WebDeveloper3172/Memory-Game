@@ -34,15 +34,15 @@ namespace DTT.MinigameMemory.Demo
         public void SetResultText(MemoryGameResults results)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Results");
+            sb.Append("REZULTATE");
             sb.Append('\n');
-            sb.Append("Time: ");
+            sb.Append("TIMP: ");
 
             string format = results.timeTaken.Hours > 0 ? @"hh\:mm\:ss" : @"mm\:ss";
             sb.Append(results.timeTaken.ToString(format));
 
             sb.Append('\n');
-            sb.Append("Turns: ");
+            sb.Append("ÎNFRUNTĂRI: ");
             sb.Append(results.amountOfTurns);
 
             _results.text = sb.ToString();
