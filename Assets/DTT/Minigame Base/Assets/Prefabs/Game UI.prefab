@@ -29,9 +29,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4319905818436775248}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e8f5688b226ad704ba22e5e7ce0ca12c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8fedcdc6c4c83c945ae0028714b68254, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -147,12 +147,12 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4600737926608822965}
   - {fileID: 8072931976990747883}
   - {fileID: 4174605576782823543}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -179,6 +179,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4319905818436775248}
     m_Modifications:
     - target: {fileID: -2479393180748277196, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
@@ -193,6 +194,10 @@ PrefabInstance:
       propertyPath: m_BlocksRaycasts
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1076954581846797173, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ede800af216536b4181d8ad5837d80b5, type: 3}
     - target: {fileID: 3676070809678976338, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -229,6 +234,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5771699920001542502, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 73d3393ae5fdcb7428e7b3d1677de4d3, type: 3}
     - target: {fileID: 7440216993695218493, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -330,12 +339,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
---- !u!224 &8072931976990747883 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7440216993695218493, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
-  m_PrefabInstance: {fileID: 1677631766219446230}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2094153680380293093 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 740781247362447411, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
@@ -347,11 +354,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02ea99ba579545e3aa6fcdbfddf8d0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &8072931976990747883 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7440216993695218493, guid: efe3ac216c4fef548adcb1520b0aac32, type: 3}
+  m_PrefabInstance: {fileID: 1677631766219446230}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2200911609298330584
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4319905818436775248}
     m_Modifications:
     - target: {fileID: 2838420972279948204, guid: f58c3b07932ffdd41927e799a636fbc0, type: 3}
@@ -443,6 +456,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f58c3b07932ffdd41927e799a636fbc0, type: 3}
 --- !u!224 &4174605576782823543 stripped
 RectTransform:
